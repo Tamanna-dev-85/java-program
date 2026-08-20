@@ -1,6 +1,23 @@
+// public class hello{
+//     public static void main(String[] args) {
+//          String name = "Eram";
+//           System.out.println(name);
+//     }
+// }
+
+//practice
+
+//how to use the pattern
+
 public class hello{
     public static void main(String[] args) {
-         String name = "Eram";
-          System.out.println(name);
+        int n=7;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+System.out.println();
+        }
+
     }
 }
