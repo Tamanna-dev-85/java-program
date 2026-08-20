@@ -22,14 +22,29 @@
 //     }
 // }
 
+// public class pattern{
+//    public static void main(String[] args) {
+//        int n=7;
+//        for(int line=1;line<=n;line++){
+//          for(int number=1;number<=line;number++){
+//             System.err.print(number);
+//          }
+//          System.err.println();
+//        }
+//    }
+// }
+
 public class pattern{
    public static void main(String[] args) {
-       int n=7;
-       for(int line=1;line<=n;line++){
-         for(int number=1;number<=line;number++){
-            System.err.print(number);
+       int n=5;
+       char ch ='A';
+
+       for( int line=1;line<=n;line++){
+         for(int chars=1;chars<=line;chars++){
+            System.out.print(ch);
+            ch++;
          }
-         System.err.println();
+         System.out.println();
        }
    }
 }
