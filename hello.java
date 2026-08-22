@@ -71,17 +71,17 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class hello {
+// public class hello {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
         
-        int a=sc.nextInt();
-        int b=sc.nextInt();
+//         int a=sc.nextInt();
+//         int b=sc.nextInt();
 
-        int num=a+b;
-        System.out.println(num);
-    }
-}
+//         int num=a+b;
+//         System.out.println(num);
+//     }
+// }
