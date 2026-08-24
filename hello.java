@@ -130,14 +130,14 @@
 //   }
 // }
 
-public class hello{
-   public static void main(String[] args) {
+// public class hello{
+//    public static void main(String[] args) {
     
-    int marks=25;
+//     int marks=25;
     
 
 
-    String larger = (marks>=33)?"PASS":"FAIL";
-    System.out.println(larger);
-  }
-}
+//     String larger = (marks>=33)?"PASS":"FAIL";
+//     System.out.println(larger);
+//   }
+// }
