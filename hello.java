@@ -142,14 +142,14 @@
 //   }
 // }
 
-public class hello{
-  public static void main(String[] args) {
-      int age=20;
-      if(age>=18){
-        System.out.println("voted");
-      }
-      else{
-        System.out.println("not voted");
-      }
-  }
- }
+// public class hello{
+//   public static void main(String[] args) {
+//       int age=20;
+//       if(age>=18){
+//         System.out.println("voted");
+//       }
+//       else{
+//         System.out.println("not voted");
+//       }
+//   }
+//  }
