@@ -528,17 +528,17 @@
 //         }
 // }
 
-public class Start{
-        public static void main(String[] args) {
-          int A=6;
-          int B=3;
+// public class Start{
+//         public static void main(String[] args) {
+//           int A=6;
+//           int B=3;
           
-          if(A>B){
-                System.out.println("Largest");
-          }
+//           if(A>B){
+//                 System.out.println("Largest");
+//           }
 
-          else{
-                System.out.println("not largest");
-          }
-        }
-}
+//           else{
+//                 System.out.println("not largest");
+//           }
+//         }
+// }
