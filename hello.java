@@ -212,12 +212,12 @@
 //     }
 // }
 
-public class hello{
-    public static void main(String[] args) {
-        int A=10;
-         //A=A+10;
-         A+=10;
-         A*=10;
-        System.out.println(A);
-    }
-}
+// public class hello{
+//     public static void main(String[] args) {
+//         int A=10;
+//          //A=A+10;
+//          A+=10;
+//          A*=10;
+//         System.out.println(A);
+//     }
+// }
