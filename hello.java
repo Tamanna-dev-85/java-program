@@ -221,3 +221,13 @@
 //         System.out.println(A);
 //     }
 // }
+
+public class hello{
+    public static void main(String[] args) {
+        int a = 10;
+        int b = a++;     //  ++a  means a+1
+        System.out.println(a);
+        System.out.println(b);
+
+    }
+}
