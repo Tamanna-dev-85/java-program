@@ -254,3 +254,9 @@
 //         System.out.println(a);
 //     }
 // }
+
+public class hello{
+    public static void main(String[] args) {
+        System.out.println((3>10)||(5>10));
+    }
+}
