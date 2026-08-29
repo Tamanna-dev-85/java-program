@@ -261,16 +261,16 @@
 //     }
 // }
 
-public class hello{
-      public static void main(String args[]){
-            int n = 18099;
+// public class hello{
+//       public static void main(String args[]){
+//             int n = 18099;
 
-            while(n>0){
-                  int lastdigit = n % 10;
-                  System.out.print(lastdigit+" ");
+//             while(n>0){
+//                   int lastdigit = n % 10;
+//                   System.out.print(lastdigit+" ");
 
-                  n = n/10;
-            }
-            System.out.println();
-      }
-}
+//                   n = n/10;
+//             }
+//             System.out.println();
+//       }
+// }
