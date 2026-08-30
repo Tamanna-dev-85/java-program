@@ -93,7 +93,7 @@
 //     }
 // }
 
-//SUM OF A & B USING INPUT
+// SUM OF A & B USING INPUT
 
 // import java.util.*;
 // public class Basics{
