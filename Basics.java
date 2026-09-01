@@ -1,9 +1,9 @@
-  public class Basics{
-    public static void main(String args[]){
-        System.out.print("12345\nhello\n  world\n"); // ln or \n ka use next line ke liye hota hai
+  //public class Basics{
+   // public static void main(String args[]){
+       // System.out.print("12345\nhello\n  world\n"); // ln or \n ka use next line ke liye hota hai
         
-    }
-}
+   // }
+//}
     
 
 //  }
