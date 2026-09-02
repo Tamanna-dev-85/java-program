@@ -457,25 +457,25 @@
 //         }
 // }
 
-import java.util.*;
-public class Start{
-        public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            int age = sc.nextInt();
+// import java.util.*;
+// public class Start{
+//         public static void main(String[] args) {
+//             Scanner sc = new Scanner(System.in);
+//             int age = sc.nextInt();
 
-            if (age>=18) {
-                System.out.println("Adult");
-            }
+//             if (age>=18) {
+//                 System.out.println("Adult");
+//             }
 
-          else if(age>13 && age<18){
-                System.out.println("Teenager");
-            }
+//           else if(age>13 && age<18){
+//                 System.out.println("Teenager");
+//             }
         
-            else{
-                System.out.println("not adult");
-            }
-        }
-}
+//             else{
+  //              System.out.println("not adult");
+      //      }
+   //     }
+//}
 
 
 // public class Start{
@@ -542,3 +542,14 @@ public class Start{
 //           }
 //         }
 // }
+
+class Start {
+    public static void main(String[] args) {
+        int n = -5;
+
+        if (n >= 0)
+            System.out.println("Positive");
+        else
+            System.out.println("Negative");
+    }
+}
