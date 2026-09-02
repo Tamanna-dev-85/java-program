@@ -543,13 +543,32 @@
 //         }
 // }
 
+// class Start {
+//     public static void main(String[] args) {
+//         int n = -5;
+
+//         if (n >= 0)
+//             System.out.println("Positive");
+//         else
+//             System.out.println("Negative");
+//     }
+// }
+
 class Start {
     public static void main(String[] args) {
-        int n = -5;
+        int n = 121;
+        int original = n;
+        int reverse = 0;
 
-        if (n >= 0)
-            System.out.println("Positive");
+        while (n != 0) {
+            int digit = n % 10;
+            reverse = reverse * 10 + digit;
+            n = n / 10;
+        }
+
+        if (original == reverse)
+            System.out.println("Palindrome");
         else
-            System.out.println("Negative");
+            System.out.println("Not Palindrome");
     }
 }
