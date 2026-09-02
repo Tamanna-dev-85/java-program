@@ -334,15 +334,28 @@
 //  }
 
 
+// class hello {
+//     public static void main(String[] args) {
+//         int n = 5;
+//         int fact = 1;
+
+//         for (int i = 1; i <= n; i++) {
+//             fact = fact * i;
+//         }
+
+//         System.out.println("Factorial = " + fact);
+//     }
+// }
+
 class hello {
     public static void main(String[] args) {
-        int n = 5;
-        int fact = 1;
+        int a = 10, b = 25, c = 15;
 
-        for (int i = 1; i <= n; i++) {
-            fact = fact * i;
-        }
-
-        System.out.println("Factorial = " + fact);
+        if (a > b && a > c)
+            System.out.println("A is largest");
+        else if (b > c)
+            System.out.println("B is largest");
+        else
+            System.out.println("C is largest");
     }
 }
