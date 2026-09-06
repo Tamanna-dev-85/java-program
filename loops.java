@@ -324,3 +324,13 @@
 //         } while (i <= 5);
 //     }
 // }
+
+public class loops{
+    public static void main(String[] args) {
+        String[] fruits = {"Apple", "Banana", "Orange"};
+
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+    }
+}
