@@ -157,18 +157,18 @@
 //  }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Basics{
-    public static void main(String[] args) {
+// class Basics{
+//     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
-        String name = sc.nextLine();
+//         System.out.print("Enter your name: ");
+//         String name = sc.nextLine();
 
-        System.out.println("Hello " + name);
-    }
-}
+//         System.out.println("Hello " + name);
+//     }
+// }
 
 
