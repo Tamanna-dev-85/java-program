@@ -368,28 +368,29 @@
 //                 break;
 //             }
 //           System.out.println(i);  
-// //         }
-// //         System.out.println("i am out of the loop");
-// //     }
-// // }
-
-// import java.util.*;
-// public class hello{
-//         public static void main(String[] args) {
-//                 Scanner sc =new Scanner(System.in);
-//                 int income = sc. nextInt();
-//                 int tax;
-          
-//           if(income<500000){
-//                 tax=0;
-               
-//           }
-//           else if(income>=500000 && income<1000000){
-//                 tax=(int)(income*0.2);
-//           }
-//           else{
-//                 tax=(int)(income*0.3);
-//           }
-//           System.out.println("your tax is:"+tax);
 //         }
+//         System.out.println("i am out of the loop");
+//     }
 // }
+
+import java.util.*;
+public class hello{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("input the year:");
+        int year = sc.nextInt();
+
+        boolean x = (year % 4) ==0;
+        boolean y = (year % 100) !=0;
+        boolean z = ((year % 100 ==0) && (year % 400 == 0));
+        
+     if(x && (y ||z)){
+        System.out.println(year +" is leap year");
+     }
+     else{
+        System.out.println(year + "is not a leap year");
+
+     }
+    }
+}
+
