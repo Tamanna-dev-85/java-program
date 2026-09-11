@@ -418,23 +418,23 @@
 //         }
 // }
 
-// import java.util.*;
-// public class Start{
-//        public static void main(String[] args) {
-//             Scanner sc = new Scanner(System.in);
-//             float a = 23.5f;
-//             int b = (int)a;
-//             System.out.println(b);
+import java.util.*;
+public class Start{
+       public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            float a = 23.5f;
+            int b = (int)a;
+            System.out.println(b);
 
-// char ch = 'a';
-// char ch2 ='b';
-// int num=ch;
-// int num2=ch2;
-// System.out.println(num);
-// System.out.println(num2);
+char ch = 'a';
+char ch2 ='b';
+int num=ch;
+int num2=ch2;
+System.out.println(num);
+System.out.println(num2);
 
-//         }
-//  }
+        }
+ }
 
 // import java.util.*;
 // public class Start {
