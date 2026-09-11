@@ -11,22 +11,22 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class solution{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        float temp = sc.nextFloat();
+// public class solution{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         float temp = sc.nextFloat();
 
-        if(temp>100){
-            System.out.println("fever");
+//         if(temp>100){
+//             System.out.println("fever");
 
-        }
-        else{
-            System.out.println("not fever");
-        }
-    }
-}
+//         }
+//         else{
+//             System.out.println("not fever");
+//         }
+//     }
+// }
 
 // import java.util.Scanner;
 
