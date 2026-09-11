@@ -344,18 +344,18 @@
 // }
 
 
-public class Start{
-        public static void main(String[]args){
-                int a=10;
-                int b=20;
-                System.out.println(a);
-                System.out.println(b);
-                System.out.println(a+b);
-                System.out.println(a-b);
-                String name="Tamanna";
-                System.out.println(name);
-        }
-}
+// public class Start{
+//         public static void main(String[]args){
+//                 int a=10;
+//                 int b=20;
+//                 System.out.println(a);
+//                 System.out.println(b);
+//                 System.out.println(a+b);
+//                 System.out.println(a-b);
+//                 String name="Tamanna";
+//                 System.out.println(name);
+//         }
+// }
 
 // import java.util.*;
 // public class Start{
