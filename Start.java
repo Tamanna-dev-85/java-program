@@ -393,19 +393,19 @@
 //         }
 // }
 
-import java.util.*;
-public class Start{
-        public static void main(String[] args) {
-            Scanner sc=new Scanner(System.in);
-            Float length =sc.nextFloat();
-            Float breath =sc.nextFloat();
+// import java.util.*;
+// public class Start{
+//         public static void main(String[] args) {
+//             Scanner sc=new Scanner(System.in);
+//             Float length =sc.nextFloat();
+//             Float breath =sc.nextFloat();
 
-            float area=length*breath;
-            System.out.println(area);
+//             float area=length*breath;
+//             System.out.println(area);
 
 
-        }
-}
+//         }
+// }
 
 
 // import java.util.*;
