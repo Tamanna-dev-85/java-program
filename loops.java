@@ -273,23 +273,23 @@
 //       }
 //}
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class loops{
-//       public static void main(String[] args) {
-//           Scanner sc= new Scanner(System.in);
-//           do {
-//             System.err.println("enter the number : "); 
-//               int n = sc.nextInt();
+public class loops{
+      public static void main(String[] args) {
+          Scanner sc= new Scanner(System.in);
+          do {
+            System.err.println("enter the number : "); 
+              int n = sc.nextInt();
 
-//               if(n % 10 == 0){
-//                   continue;
-//               }
-//               System.err.println("number was : "+ n);
-//           } while (true);
+              if(n % 10 == 0){
+                  continue;
+              }
+              System.err.println("number was : "+ n);
+          } while (true);
               
-//           }
-//       }
+          }
+      }
 
 // n is prime or not prime
 
