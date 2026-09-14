@@ -150,22 +150,22 @@
 //       }
 // }
 
-// import java.util.*;
-// public class loops{
-//       public static void main(String[] args) {
-//           Scanner sc = new Scanner(System.in);
+import java.util.*;
+public class loops{
+      public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
 
-//           int n = sc.nextInt();
+          int n = sc.nextInt();
 
-//           while(n>0){
-//             int lastdigit = n % 10;
-//             System.out.print( lastdigit);
+          while(n>0){
+            int lastdigit = n % 10;
+            System.out.print( lastdigit);
 
-//             n = n/10;
-//           }
-//           System.out.println();
-//       }
-// }
+            n = n/10;
+          }
+          System.out.println();
+      }
+}
 
 // public class loops{
 //       public static void main(String[] args) {
