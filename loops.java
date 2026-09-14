@@ -205,22 +205,22 @@
 //     }
 // }
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class loops{
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
+public class loops{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-//         do { 
-//             System.out.println("enter your number: ");
-//             int n = sc.nextInt();
+        do { 
+            System.out.println("enter your number: ");
+            int n = sc.nextInt();
 
-//             if(n% 10==0){
-//                 break;
-//             }
-//         } while (true);
-//     }
-// }
+            if(n% 10==0){
+                break;
+            }
+        } while (true);
+    }
+}
 
 // public class loops{
 //     public static void main(String[] args) {
