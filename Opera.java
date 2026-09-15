@@ -105,15 +105,15 @@
 
 // Assignament Operators =,+=,-=,*=,/=
 
-public class Opera{
-    public static void main(String[] args) {
-        int A=10;
-         //A=A+10;
-         A+=10;
-         A*=10;
-        System.out.println(A);
-    }
-}
+// public class Opera{
+//     public static void main(String[] args) {
+//         int A=10;
+//          //A=A+10;
+//          A+=10;
+//          A*=10;
+//         System.out.println(A);
+//     }
+// }
 
 
 //    TEST
