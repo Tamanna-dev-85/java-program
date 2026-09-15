@@ -314,26 +314,26 @@
 //       }
 // }} 
 
-// public class loops {
-//     public static void main(String[] args) {
-//         int i = 1;
+public class loops {
+    public static void main(String[] args) {
+        int i = 1;
 
-//         do {
-//             System.out.println("Count: " + i);
-//             i++;
-//         } while (i <= 5);
-//     }
-// }
+        do {
+            System.out.println("Count: " + i);
+            i++;
+        } while (i <= 5);
+    }
+}
 
-// public class loops{
-//     public static void main(String[] args) {
-//         String[] fruits = {"Apple", "Banana", "Orange"};
+public class loops{
+    public static void main(String[] args) {
+        String[] fruits = {"Apple", "Banana", "Orange"};
 
-//         for (String fruit : fruits) {
-//             System.out.println(fruit);
-//         }
-//     }
-// }
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
+    }
+}
 
 // public class loops{
 //     public static void main(String[] args) {
