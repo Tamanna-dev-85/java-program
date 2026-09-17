@@ -224,22 +224,22 @@
 //     }
 // }
 
-import java.util.*;
-public class Opera{
-   public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
-      int A=4;
-      int B=1;
+//import java.util.*;
+//public class Opera{
+  //  public static void main(String[] args) {
+        //Scanner sc =new Scanner(System.in);
+    //   int A=4;
+      // int B=1;
        
-        if(A>=B){
-           System.out.println("A is largest of 2");
+        //if(A>=B){
+          //  System.out.println("A is largest of 2");
 
-        }
-        else{
-            System.out.println("B is the Largest of 2 ");
-        }
- }
- }
+//         }
+//         else{
+//             System.out.println("B is the Largest of 2 ");
+//         }
+//     }
+// }
 
 // import java.util.*;
 // public class Opera{
