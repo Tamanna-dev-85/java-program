@@ -285,22 +285,22 @@
 //     }
 // }
 
-public class Opera{
-    public static void main(String[] args) {
-        int age = 13;
+// public class Opera{
+//     public static void main(String[] args) {
+//         int age = 13;
 
-        if (age>=18){
-        System.out.println("Adult");
-    }
-        else if (age>=13&& age < 18){
-            System.out.println("Teenager");
+//         if (age>=18){
+//         System.out.println("Adult");
+//     }
+//         else if (age>=13&& age < 18){
+//             System.out.println("Teenager");
 
-        }
-        else{
-            System.out.println("Not Voted");
-        }
-    }
-}
+//         }
+//         else{
+//             System.out.println("Not Voted");
+//         }
+//     }
+// }
 
 // import java.util.*;
 // public class Opera{
