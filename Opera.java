@@ -412,19 +412,19 @@
 //   }
 // }
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
-// public class Opera{
-//    public static void main(String[] args) {
-//     Scanner sc = new Scanner(System.in);
+public class Opera{
+   public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
-//     int number=sc.nextInt();
+    int number=sc.nextInt();
 
 
-//     String Type = (number%2==0)?"even":"odd";
-//     System.out.println(Type);
-//   }
-// }
+    String Type = (number%2==0)?"even":"odd";
+    System.out.println(Type);
+  }
+}
 
 
 
