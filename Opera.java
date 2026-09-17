@@ -454,24 +454,24 @@
 
        //SWITCH CASE
 
-public class Opera{
-   public static void main(String[] args) {
+// public class Opera{
+//    public static void main(String[] args) {
     
-      int number=2;
+//       int number=2;
 
-      switch(number){
+//       switch(number){
 
-        case 1: System.out.println("samosa");
-        break;
-        case 2: System.out.println("pizza");
-        break;
-        case 3: System.out.println("momo");
-        break;
-        default:System.out.println("dreaming");
+//         case 1: System.out.println("samosa");
+//         break;
+//         case 2: System.out.println("pizza");
+//         break;
+//         case 3: System.out.println("momo");
+//         break;
+//         default:System.out.println("dreaming");
 
-    }
-  }
-}
+//     }
+//   }
+// }
 
 //       CALCULATOR
 
