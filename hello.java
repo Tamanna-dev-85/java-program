@@ -462,16 +462,16 @@
 //     }
 // }
 
-class hello{
-    public static void main(String[] args) {
-        int[] arr = {10, 20, 30, 40};
-        int search = 30;
+// class hello{
+//     public static void main(String[] args) {
+//         int[] arr = {10, 20, 30, 40};
+//         int search = 30;
 
-        for (int x : arr) {
-            if (x == search) {
-                System.out.println("Found");
-                break;
-            }
-        }
-    }
-}
+//         for (int x : arr) {
+//             if (x == search) {
+//                 System.out.println("Found");
+//                 break;
+//             }
+//         }
+//     }
+// }
