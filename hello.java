@@ -448,16 +448,16 @@
 //     }
 // }
 
-class hello{
-    public static void main(String[] args) {
-        int[] arr = {10, 50, 20, 80, 30};
-        int max = arr[0];
+// class hello{
+//     public static void main(String[] args) {
+//         int[] arr = {10, 50, 20, 80, 30};
+//         int max = arr[0];
 
-        for (int x : arr) {
-            if (x > max)
-                max = x;
-        }
+//         for (int x : arr) {
+//             if (x > max)
+//                 max = x;
+//         }
 
-        System.out.println(max);
-    }
-}
+//         System.out.println(max);
+//     }
+// }
