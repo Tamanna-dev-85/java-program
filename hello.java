@@ -603,17 +603,28 @@
 //     }
 // }
 
-class Student {
-    String name = "Tamanna";
+// class Student {
+//     String name = "Tamanna";
 
-    void display() {
-        System.out.println(name);
-    }
-}
+//     void display() {
+//         System.out.println(name);
+//     }
+// }
+
+// class hello{
+//     public static void main(String[] args) {
+//         Student s = new Student();
+//         s.display();
+//     }
+// }
 
 class hello{
+
+    static void add(int a, int b) {
+        System.out.println(a + b);
+    }
+
     public static void main(String[] args) {
-        Student s = new Student();
-        s.display();
+        add(10, 20);
     }
 }
