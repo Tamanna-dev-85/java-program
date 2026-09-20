@@ -602,3 +602,18 @@
 //         }
 //     }
 // }
+
+class Student {
+    String name = "Tamanna";
+
+    void display() {
+        System.out.println(name);
+    }
+}
+
+class hello{
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.display();
+    }
+}
