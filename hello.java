@@ -671,3 +671,16 @@
 //         System.out.println(name.toUpperCase());
 //     }
 // }
+
+public class hello{
+  public static void main(String args[]){
+    int age = 2;
+
+    if(age>=18){
+      System.out.println("adult");
+    }
+  else{
+  System.out.println("not adult");
+  }
+}
+}
