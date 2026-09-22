@@ -1,7 +1,4 @@
 
-import java.util.Scanner;
-
-// public class Start{
 //     public static void main (String args[]){
 //         System.out.println("Hello world!");
 //         System.out.print("1 2 3 4 5\n");
@@ -640,3 +637,12 @@ import java.util.Scanner;
 //             System.out.println("sum is :"+(sum));
 //         }
 // }
+
+public class Start{
+        public static void main(String[] args) {
+            for(int line=1; line<=4; line++){
+System.out.println("***");
+            }
+            
+        }
+}
