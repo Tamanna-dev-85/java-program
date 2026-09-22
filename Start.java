@@ -638,11 +638,11 @@
 //         }
 // }
 
-public class Start{
-        public static void main(String[] args) {
-            for(int line=1; line<=4; line++){
-System.out.println("***");
-            }
+// public class Start{
+//         public static void main(String[] args) {
+//             for(int line=1; line<=4; line++){
+// System.out.println("***");
+//             }
             
-        }
-}
+//         }
+// }
