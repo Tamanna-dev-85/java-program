@@ -701,20 +701,20 @@ import java.util.Scanner;
 // }
 // }
 
-public class hello{
-  public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
-      int age = sc.nextInt();
+// public class hello{
+//   public static void main(String[] args) {
+//       Scanner sc = new Scanner(System.in);
+//       int age = sc.nextInt();
 
-      if (age>=18){
-        System.out.println("vote");
-      }
+//       if (age>=18){
+//         System.out.println("vote");
+//       }
 
-      if (age>13 && age<18){
-        System.out.println("teenager");
-      }
-  else{
-   System.out.println("not voted ");
-  }
-}
-}
+//       if (age>13 && age<18){
+//         System.out.println("teenager");
+//       }
+//   else{
+//    System.out.println("not voted ");
+//   }
+// }
+// }
