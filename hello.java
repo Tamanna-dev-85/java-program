@@ -1,7 +1,4 @@
 
-import java.util.Scanner;
-
-// public class hello{
 //     public static void main(String[] args) {
 //          String name = "Eram";
 //           System.out.println(name);
@@ -718,3 +715,20 @@ import java.util.Scanner;
 //   }
 // }
 // }
+
+public class hello{
+  public static void main(String[] args) {
+      int A=1,B=3,C=6;
+
+      if((A>=B) &&(A>=C)){
+        System.out.println("largest is A");
+      }
+else if (B>=C){
+  System.out.println("largest of B");
+
+}
+else {
+  System.out.println("largest of C");
+}
+  }
+}
