@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 // public class Start{
 //     public static void main (String args[]){
 //         System.out.println("Hello world!");
@@ -622,3 +625,18 @@
 //             }
 //         }
 // }
+
+public class Start{
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
+            int sum = 0;
+
+            int i=1;
+            while(i<=n){
+                sum +=i;
+                i++;
+            }
+            System.out.println("sum is :"+(sum));
+        }
+}
