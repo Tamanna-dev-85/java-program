@@ -232,22 +232,22 @@
 //         }
 //     }
 // }
-// public class loops{
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
+public class loops{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-//         do { 
-//             System.out.print("enter your num: ");
-//             int n = sc.nextInt();
+        do { 
+            System.out.print("enter your num: ");
+            int n = sc.nextInt();
             
-//             if(n % 10 ==0){
-//                 continue;
-//             }
+            if(n % 10 ==0){
+                continue;
+            }
 
-//             System.out.println("num was:"+n);
-//         } while (true);
-//     }
-// }
+            System.out.println("num was:"+n);
+        } while (true);
+    }
+}
 
 // public class loops{
 //       public static void main(String[] args) {
