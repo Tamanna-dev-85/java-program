@@ -125,3 +125,34 @@
         }
     }
 }*/
+
+// public class pattern{
+//     public static void main(String[] args) {
+//         int n= 5;
+//         int num = 1;
+//         for(int i = 1;i<=n;i++){
+//             //System.out.println("  ");
+//             for(int number=1;number<=i;number++){
+//                 System.out.print(num + " ");
+//                 num++;
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// public class pattern{
+//     public static void main(String[] args) {
+//         int n= 5;
+//         char ch = 'a';
+//         for(int i = 1;i<=n;i++){
+//             //System.out.println("  ");
+//             for(int chars=1;chars<=i;chars++){
+//                 System.out.print(ch+ " ");
+//                 ch++;
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
