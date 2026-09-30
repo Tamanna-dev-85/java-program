@@ -16,19 +16,32 @@ public class function{
 
 // import java.util.*;
 //public class function{
-    public static void sum(){
-        Scanner sc = new Scanner(System.in);
-        System.out.print("enter the num a :");
-        int a = sc.nextInt();
+//     public static void sum(int a ,int b){
+//         int sum = a+b;
+//         System.out.println("sum is :"+sum);
 
-        System.out.print("enter the num b :");
-        int b = sc.nextInt();
+//     }
+    
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         sum(a,b);
+        
+//     }
+// }
+
+public static int calculate(int a ,int b){ //parameter or formal parameter
         int sum = a+b;
+        return sum;
 
-       System.out.println("sum is :"+sum);
     }
     public static void main(String[] args) {
-        sum();
-        tamanna();
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = calculate(a,b);// arguments or actual parameters
+        System.out.println("sum is : "+ sum);
+        
     }
 }
