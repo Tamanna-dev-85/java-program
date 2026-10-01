@@ -71,6 +71,9 @@ public static void main(String[] args) {
     int b= 5;
     int prod = multiply(a,b);
     System.out.println(prod);
+
+    prod = multiply(10, 3);
+    System.out.println(prod);
      
 
 }
