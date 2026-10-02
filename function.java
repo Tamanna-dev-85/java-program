@@ -138,7 +138,37 @@ public static int binCoeff(int n, int r){
     return  binCoeff;
 
 }
+
+public static int mul(int a,int b){
+    int product=a*b;
+    return product;
+}
+
+public static int factorial1(int n){
+    int f = 1;
+    for (int i = 1; i <= n; i++) {
+        f= f*i;
+        
+    }
+    return f;
+}
+
+//function of 2 num
+public static int sum1(int a,int b){
+    return a+b;
+}
+//function of sum of 3 num
+public static int sum1(int a,int b,int c){
+    return a+b+c;
+}
+
 public static void main(String[] args) {
-    System.out.println(binCoeff(5, 2));
+    //System.out.println(binCoeff(5, 2));
+    //System.out.println(mul(3, 2));
+    //System.out.println(factorial1(4));
+    System.out.println(sum1(3, 4));
+    System.out.println(sum1(3, 4, 2));
+
+    
 }
 }
