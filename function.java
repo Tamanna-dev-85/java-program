@@ -162,12 +162,21 @@ public static int sum1(int a,int b,int c){
     return a+b+c;
 }
 
+//function of 2 num integer
+public static int sum2(int a,int b){
+    return a+b;
+}
+//function of sum of 3 num float
+public static float  sum2(float a,float  b){
+    return a+b;
+}
+
 public static void main(String[] args) {
     //System.out.println(binCoeff(5, 2));
     //System.out.println(mul(3, 2));
     //System.out.println(factorial1(4));
-    System.out.println(sum1(3, 4));
-    System.out.println(sum1(3, 4, 2));
+    System.out.println(sum2(3, 4));
+    System.out.println(sum2(3.1f, 4.2f));
 
     
 }
