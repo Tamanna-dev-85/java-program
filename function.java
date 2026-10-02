@@ -177,7 +177,7 @@ public static float  sum2(float a,float  b){
 public static boolean isprime(int n){
     boolean isprime = true;
 
-    for(int i = 2;i<=n-1;i++){
+    for(int i = 2;i<=n;i++){
         if(n%i==0){ //complete divide
         isprime=false;
         break;
@@ -185,13 +185,41 @@ public static boolean isprime(int n){
     }
     return isprime;
 }
+
+public static boolean isPrime(int n){
+    if(n==2){
+        return true;
+    }
+    for(int i = 2; i<=Math.sqrt(n);i++){
+        if(n%i==0){
+            return false;
+        }
+    }
+    return true;
+}
+
+
+// prime in Range
+
+public static void primerange(int n){
+    for(int i=2;i<=n;i++){
+        if (isPrime(i)){  //true
+            System.out.print(i+ " ");
+        }
+    }
+    System.out.println();
+}
+
+
 public static void main(String[] args) {
     //System.out.println(binCoeff(5, 2));
     //System.out.println(mul(3, 2));
     //System.out.println(factorial1(4));
    // System.out.println(sum2(3, 4));
     //System.out.println(sum2(3.1f, 4.2f));
-System.out.println(isprime(12));
-    
+//System.out.println(isprime(5));
+//System.out.println(isPrime(16));
+
+    primerange(20);
 }
 }
