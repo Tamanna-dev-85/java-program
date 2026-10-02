@@ -171,13 +171,27 @@ public static float  sum2(float a,float  b){
     return a+b;
 }
 
+
+//is prime or not prime
+
+public static boolean isprime(int n){
+    boolean isprime = true;
+
+    for(int i = 2;i<=n-1;i++){
+        if(n%i==0){ //complete divide
+        isprime=false;
+        break;
+        }
+    }
+    return isprime;
+}
 public static void main(String[] args) {
     //System.out.println(binCoeff(5, 2));
     //System.out.println(mul(3, 2));
     //System.out.println(factorial1(4));
-    System.out.println(sum2(3, 4));
-    System.out.println(sum2(3.1f, 4.2f));
-
+   // System.out.println(sum2(3, 4));
+    //System.out.println(sum2(3.1f, 4.2f));
+System.out.println(isprime(12));
     
 }
 }
