@@ -258,6 +258,6 @@ public static void main(String[] args) {
    // primerange(20);
 
    //bintodec(1001);
-   dectobin(5);
+   dectobin(10);
 }
 }
