@@ -213,7 +213,7 @@ public static void primerange(int n){
 
 //BINARY TO DECIMAL
 
-public static void bintodec(int binnum){
+public static void bintodec(int binnum){ // 101110
     int mynum = binnum;
     int pow = 0;
     int decnum = 0;
