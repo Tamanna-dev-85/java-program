@@ -211,6 +211,42 @@ public static void primerange(int n){
 }
 
 
+//BINARY TO DECIMAL
+
+public static void bintodec(int binnum){
+    int mynum = binnum;
+    int pow = 0;
+    int decnum = 0;
+
+    while(binnum>0){
+        int lastdigit = binnum%10;
+        decnum = decnum + (lastdigit*(int)Math.pow(2, pow));
+
+        pow++;
+        binnum = binnum/10;
+    }
+    System.out.println("decimal of "+ mynum+" = " + decnum);
+}
+
+// DECIMAL TO BINARY
+
+public static void dectobin(int n){
+    int mynum=n;
+    int pow = 0;
+    int binnum = 0;
+
+    while(n>0){
+        int rem = n%2;
+        binnum= binnum + (rem * (int)Math.pow(10, pow));
+
+        pow++;
+        n = n/2;
+    }
+    System.out.println("binary of "+ mynum+" = " + binnum);
+
+}
+
+
 public static void main(String[] args) {
     //System.out.println(binCoeff(5, 2));
     //System.out.println(mul(3, 2));
@@ -219,7 +255,9 @@ public static void main(String[] args) {
     //System.out.println(sum2(3.1f, 4.2f));
 //System.out.println(isprime(5));
 //System.out.println(isPrime(16));
+   // primerange(20);
 
-    primerange(20);
+   //bintodec(1001);
+   dectobin(5);
 }
 }
