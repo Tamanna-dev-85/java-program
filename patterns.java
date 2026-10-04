@@ -47,8 +47,7 @@ public class patterns {
 
 
 
-
-public static void main(String[] args) {
+    public static void main(String[] args) {
     //hollowRec(6, 5);
     //HALF_PYMARID(4);
     HALF_PYMARID_numbers(5);
