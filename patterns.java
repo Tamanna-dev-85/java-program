@@ -34,11 +34,24 @@ public class patterns {
  } 
     }
 
+    public static void HALF_PYMARID_numbers(int n){
+    for(int i =1 ; i<=n; i++){ //outer loop
+         
+        //inner-number
+        for(int j=1 ; j<=n-i+1; j++){ 
+          System.out.print(j);
+        }
+        System.out.println();
+ } 
+    }
+
+
 
 
 public static void main(String[] args) {
     //hollowRec(6, 5);
-    HALF_PYMARID(4);
+    //HALF_PYMARID(4);
+    HALF_PYMARID_numbers(5);
 }
     
 }
