@@ -31,8 +31,8 @@
             for( int numb=1; numb<=(n-i+1); numb++){
                 System.out.print(numb);
             }
-            System.out.println();
-        }
+            
+        }System.out.println();
     }
 }
 
