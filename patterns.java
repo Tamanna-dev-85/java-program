@@ -207,7 +207,7 @@ public static void main(String[] args) {
    //butterfly(4);
   //rhombus(5);
   //hollow_rectangle(5);
-  diamond(4);
+  diamond(5);
 }
     
 }
