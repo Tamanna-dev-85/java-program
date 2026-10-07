@@ -122,14 +122,60 @@ public static void butterfly(int n){
     }
 }
 
+
+
+//solid rhombus
+public static void rhombus(int n){
+    for(int i=1;i<=n;i++){
+        
+        //spaces
+        for(int j=1;j<=(n-i);j++){
+            System.out.print(" ");
+        }
+
+        //stars
+        for(int j=1;j<=n;j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+}
+
+
+//hollow rectangle
+
+public static void hollow_rectangle(int n){
+    for(int i=1;i<=n;i++){
+
+        //spaces
+        for(int j=1;j<=(n-i);j++){
+        System.out.print(" ");
+    }
+
+    //hollow_rectangle_stars
+
+    for(int j=1; j<=n; j++){
+        if(i==1||i==n||j==1||j==n){
+        System.out.print("*");
+    }else{
+        System.out.print(" ");
+    }
+}
+    System.out.println();
+}
+
+}
+
+
 public static void main(String[] args) {
     //hollowRec(6, 5);
     //HALF_PYMARID(4);
     //HALF_PYMARID_numbers(5);
     //floydstriangle(5);
-
-   // zero_one_triangle(5);
-   butterfly(4);
+    // zero_one_triangle(5);
+   //butterfly(4);
+  //rhombus(5);
+  hollow_rectangle(5);
 }
     
 }
