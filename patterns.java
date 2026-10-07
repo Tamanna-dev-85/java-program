@@ -166,6 +166,37 @@ public static void hollow_rectangle(int n){
 
 }
 
+public static void diamond(int n){
+
+    //first half
+    for(int i=1;i<=n;i++){
+        //spaces
+        for(int j=1;j<=(n-i);j++){
+            System.out.print("  ");
+        }
+
+        //stars
+        for(int j=1;j<=(2*i)-1;j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    //2nd half
+    for(int i=n;i>=1;i--){
+        //spaces
+        for(int j=1;j<=(n-i);j++){
+            System.out.print("  ");
+        }
+
+        //stars
+        for(int j=1;j<=(2*i)-1;j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+
+}
+
 
 public static void main(String[] args) {
     //hollowRec(6, 5);
@@ -175,7 +206,8 @@ public static void main(String[] args) {
     // zero_one_triangle(5);
    //butterfly(4);
   //rhombus(5);
-  hollow_rectangle(5);
+  //hollow_rectangle(5);
+  diamond(4);
 }
     
 }
