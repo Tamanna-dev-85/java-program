@@ -12,8 +12,9 @@ public class array {
         System.out.println("chem: "+marks[1]);
         System.out.println("math: "+marks[2]);
 
-        marks[2] =100;
-        System.out.println("phy: "+marks[2]);
+        //marks[2] =100;
+        marks[2]=marks[2]+1;
+        System.out.println("math: "+marks[2]);
 
 
     }
