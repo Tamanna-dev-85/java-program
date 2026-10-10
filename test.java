@@ -26,7 +26,7 @@
 
     public class test{
     public static void main(String[] args) {
-        int n = 6;
+        int n = 9;
         for(int i = 1; i<=n; i++){
             for( int numb=1; numb<=(n-i+1); numb++){
                 System.out.print(numb);
