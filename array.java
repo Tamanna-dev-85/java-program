@@ -40,7 +40,7 @@ public class array {
         }
     }
     public static void main(String[] args) {
-        int marks[]={97,98,99};
+        int marks[]={96,98,99};
         update(marks);
 
         //print our marks
