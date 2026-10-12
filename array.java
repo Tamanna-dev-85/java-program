@@ -32,22 +32,23 @@
       //  System.out.println("length of array:"+marks.lengt);
     //}
 //}
-public class array {
+// public class array {
 
-    public static void update(int marks[]){
-        for(int i=0;i<marks.length;i++){
-            marks[i]=marks[i] + 1;
-        }
-    }
-    public static void main(String[] args) {
-        int marks[]={96,98,99};
-        update(marks);
+//     public static void update(int marks[]){
+//         for(int i=0;i<marks.length;i++){
+//             marks[i]=marks[i] + 1;
+//         }
+//     }
+//     public static void main(String[] args) {
+//         int marks[]={96,98,99};
+//         update(marks);
 
-        //print our marks
+//         //print our marks
 
-        for(int i=0;i<marks.length;i++){
-            System.out.print(marks[i]+" ");
-        }
-        System.out.println();
-    }
-}
+//         for(int i=0;i<marks.length;i++){
+//             System.out.print(marks[i]+" ");
+//         }
+//         System.out.println();
+//     }
+// }
+
