@@ -93,8 +93,36 @@ public class array{
     System.out.println("smallest value is:"+smallest);
     return largest;
   }
-  public static void main(String[] args) {
-      int numbers[]={1,2,6,4,5};
-      System.out.println("largest value is:"+getlargest(numbers));
-  }
+
+//binary search find the number
+
+public static int binarysearch(int number[],int key){
+   int Start=0,end=number.length-1;
+
+   while(Start<=end){
+    int mid=(Start+end)/2;
+    
+//compersion
+
+    if(number[mid]==key){
+      return mid;
+    }
+    if(number[mid]<key){ //right
+      Start=mid+1;
+    }else{
+      end=mid-1; //left
+    }
+
+   }
+   return -1;
+}
+public static void main(String[] args) {
+  //     int numbers[]={1,2,6,4,5};
+  //     System.out.println("largest value is:"+getlargest(numbers));
+  
+int number[]={2,4,6,8,10,12,14};
+int key=8;
+System.out.println("binary search index is found key:"+binarysearch(number, key));
+
+}
 }
