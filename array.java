@@ -76,8 +76,6 @@
 //       }
 //   }
 // }
-
-import java.util.*;
 public class array{
   public static int getlargest(int number[]){
     int largest=Integer.MIN_VALUE;//infinity
@@ -121,7 +119,7 @@ public static void main(String[] args) {
   //     System.out.println("largest value is:"+getlargest(numbers));
   
 int number[]={2,4,6,8,10,12,14,16};
-int key=20;
+int key=23;
 System.out.println("binary search index is found key:"+binarysearch(number, key));
 
 }
