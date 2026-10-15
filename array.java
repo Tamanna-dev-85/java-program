@@ -120,8 +120,8 @@ public static void main(String[] args) {
   //     int numbers[]={1,2,6,4,5};
   //     System.out.println("largest value is:"+getlargest(numbers));
   
-int number[]={2,4,6,8,10,12,14};
-int key=8;
+int number[]={2,4,6,8,10,12,14,16};
+int key=20;
 System.out.println("binary search index is found key:"+binarysearch(number, key));
 
 }
