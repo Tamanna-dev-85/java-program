@@ -218,3 +218,15 @@
 //         }
 //     }
 // }
+
+public class Basics{
+   public static void main(String[] args) {
+    
+    int a=2,b=3;
+    
+
+
+    int larger = (a>b)?a:b;
+    System.out.println(larger);
+  }
+}
