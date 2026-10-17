@@ -116,13 +116,12 @@ public static int binarysearch(int number[],int key){
 }
 
 
-// ARRAY REVERSE
+// ARRAY REVERSE code
 public static void reverse(int numbers[]){
   int first = 0, last = numbers.length-1;
 
   while(first<last){
     int temp = numbers[last];
-    numbers[last] = numbers[first];
     numbers[last] = numbers[first];
     numbers[first]=temp;
 
@@ -131,23 +130,40 @@ public static void reverse(int numbers[]){
   }
 }
 
+
+//--> print pairs numbers
+public static void printPair(int numbers[]){
+  for(int i=0;i<numbers.length;i++){
+    int curr = numbers[i]; //2,4,6,8,10
+    for(int j=i+1;j<numbers.length;j++){
+      System.out.print("("+curr+"," + numbers[j]+ ")");
+    }
+    System.out.println();
+  }
+}
+
+// this is only for function call
 public static void main(String[] args) {
   //     int numbers[]={1,2,6,4,5};
   //     System.out.println("largest value is:"+getlargest(numbers));
   
-// int number[]={2,4,6,8,10,12,14,16};
+
+  // int number[]={2,4,6,8,10,12,14,16};
 // int key=23;
 // System.out.println("binary search index is found key:"+binarysearch(number, key));
 
 
-int numbers[] = {2,4,6,8,10};
+// int numbers[] = {2,4,6,8,10};
+//     reverse(numbers);
+//     //print array
+//     for(int i=0;i<numbers.length;i++){
+//       System.out.print(numbers[i]+" ");
+//     }
+//     System.out.println();
 
-    reverse(numbers);
+//pairs
+int numbers[]={2,4,6,8,10};
+printPair(numbers);
 
-    //print array
-    for(int i=0;i<numbers.length;i++){
-      System.out.print(numbers[i]+" ");
-    }
-    System.out.println();
-}
+ }
 }
