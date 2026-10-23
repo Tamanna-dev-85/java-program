@@ -254,28 +254,28 @@
 // }
 
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
-public class  Basics {
-    public static void main(String[] args) {
+//public class  Basics {
+//     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+//         Scanner sc = new Scanner(System.in);
 
-        int[] arr = new int[5];
+//         int[] arr = new int[5];
 
-        System.out.println("Enter 5 numbers:");
+//         System.out.println("Enter 5 numbers:");
 
-        for (int i = 0; i < 5; i++) {
-            arr[i] = sc.nextInt();
-        }
+//         for (int i = 0; i < 5; i++) {
+//             arr[i] = sc.nextInt();
+//         }
 
-        System.out.println("Array elements are:");
+//         System.out.println("Array elements are:");
 
-        for (int i = 0; i < 5; i++) {
-            System.out.println(arr[i]);
-        }
+//         for (int i = 0; i < 5; i++) {
+//             System.out.println(arr[i]);
+//         }
 
-        sc.close();
-    }
-}
+//         sc.close();
+//     }
+// }
 
