@@ -63,17 +63,17 @@
 //     }
 // }
 
-public class test {
-    public static void main(String[] args) {
-        int[] arr = {10, 50, 30, 80, 20};
-        int max = arr[0];
+// public class test {
+//     public static void main(String[] args) {
+//         int[] arr = {10, 50, 30, 80, 20};
+//         int max = arr[0];
 
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-            }
-        }
+//         for (int i = 1; i < arr.length; i++) {
+//             if (arr[i] > max) {
+//                 max = arr[i];
+//             }
+//         }
 
-        System.out.println("Largest = " + max);
-    }
-}
+//         System.out.println("Largest = " + max);
+//     }
+// }
