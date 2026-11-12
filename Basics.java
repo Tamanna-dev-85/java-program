@@ -51,14 +51,16 @@
 
 //SUM OF A & B
 
-public class Basics{
-    public static void main(String args[]){
-        int a=30;
-        int b=50;
-        int sum=a+b;
-        System.out.println(sum);
-    }
-}
+// // public class Basics{
+//     public static void main(String args[]){
+//         int a=30;
+//         int b=50;
+//         int sum=a+b;
+//         System.out.println(sum);
+//     }
+// }
+
+
 
 //INPUT IN JAVA
 
