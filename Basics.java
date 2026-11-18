@@ -327,12 +327,32 @@
 //     }
 // }
 
+// public class Basics{
+//     public static void main(String[] args) {
+//         int a=10;
+//         int b=20;
+//         System.out.println(a+b);
+//         String name = "tamanna";
+//         System.out.println(name);
+//     }
+// }
+
+import java.util.Scanner;
+
 public class Basics{
     public static void main(String[] args) {
-        int a=10;
-        int b=20;
-        System.out.println(a+b);
-        String name = "tamanna";
-        System.out.println(name);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("enter the number a = ");
+        int a = sc.nextInt();
+
+        System.out.print("ether the number b = ");
+        int b = sc.nextInt();
+
+        int sum = a+b;
+        System.out.print("the total number of = "+sum);
+
+
+        
     }
 }
