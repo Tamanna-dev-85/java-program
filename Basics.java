@@ -337,22 +337,22 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Basics{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// public class Basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.print("enter the number a = ");
-        int a = sc.nextInt();
+//         System.out.print("enter the number a = ");
+//         int a = sc.nextInt();
 
-        System.out.print("ether the number b = ");
-        int b = sc.nextInt();
+//         System.out.print("ether the number b = ");
+//         int b = sc.nextInt();
 
-        int sum = a+b;
-        System.out.print("the total number of = "+sum);
+//         int sum = a+b;
+//         System.out.print("the total number of = "+sum);
 
 
         
-    }
-}
+//     }
+// }
