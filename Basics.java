@@ -367,18 +367,26 @@
 //     }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
+
+// public class Basics{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int range = sc.nextInt();
+
+//         int i = 1;
+//         while(i<=range){
+//             System.out.print( i +" ");
+//             i++;
+//         }
+//         System.out.println();
+//     }
+// }
 
 public class Basics{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int range = sc.nextInt();
-
-        int i = 1;
-        while(i<=range){
-            System.out.print( i +" ");
-            i++;
+        for(int i=1;i<=10;i++){
+            System.out.println("hello");
         }
-        System.out.println();
     }
 }
