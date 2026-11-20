@@ -85,7 +85,15 @@ public class test{
   public static void helloworld(){
     System.out.println("hello world");
   }
+
+  public static int add(int a,int b){
+     System.out.println(a+b);
+     return 2;
+   }
+
+
   public static void main(String[] args) {
       helloworld();
+      add(5,3);
   }
 }
