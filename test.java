@@ -109,7 +109,7 @@ public static int multiply(int a,int b){
 public static int factorial(int n){
   int fact=1;
   for(int i=1;i<=n;i++){
-    fact=fact+1;
+    fact=fact*i;
   }
   return fact;
 }
