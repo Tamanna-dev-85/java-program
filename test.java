@@ -90,9 +90,27 @@ public class test{
      System.out.println(a+b);
    }
 
+public static void swaap(int a,int b){
+  int temp=a;
+  a=b;
+  b=temp;
+System.out.println("a="+a);
+System.out.println("b="+b);
+
+
+}
    
+public static int multiply(int a,int b){
+  int product= a*b;
+  return product;
+
+}
   public static void main(String[] args) {
-      helloworld();
-      add(5,3);
+      // helloworld();
+      // add(5,3);
+      //swaap(5,10);
+      int prod=multiply(3, 5);
+      System.out.println(prod);
+
   }
 }
