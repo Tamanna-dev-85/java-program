@@ -105,12 +105,32 @@ public static int multiply(int a,int b){
   return product;
 
 }
+
+public static int factorial(int n){
+  int fact=1;
+  for(int i=1;i<=n;i++){
+    fact=fact+1;
+  }
+  return fact;
+}
+
+public static int bincoeff(int n, int r){
+  int fact_n = factorial(n);
+  int fact_r = factorial(r);
+
+  int fact_nmr=factorial(n-r);
+
+  int bincoeff = fact_n/(fact_r*fact_nmr);
+  return bincoeff;
+
+}
   public static void main(String[] args) {
       // helloworld();
       // add(5,3);
       //swaap(5,10);
-      int prod=multiply(3, 5);
-      System.out.println(prod);
+      //int prod=multiply(3, 5);
+      //System.out.println(prod);
+      System.out.println((bincoeff(5, 2)));
 
   }
 }
