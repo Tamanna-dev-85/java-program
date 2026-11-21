@@ -133,6 +133,14 @@ public static int sum(int a,int b){
 public static int sum (int a, int b,int c){
   return a+b+c;
 }
+//function overloading
+
+public static int sum1(int a,int b){
+  return a+b;
+}
+public static float sum1(float a, float b){
+  return a+b;
+}
   public static void main(String[] args) {
       // helloworld();
       // add(5,3);
@@ -141,8 +149,12 @@ public static int sum (int a, int b,int c){
       //System.out.println(prod);
       //System.out.println((bincoeff(5, 2)));
       
-      System.out.println(sum(3,5));
-      System.out.println(sum(3,5,2));
+      //System.out.println(sum(3,5));
+      //System.out.println(sum(3,5,2));
+
+      System.out.println(sum1(2, 3));
+      System.out.println(sum1(3.1f, 3.2f));
+
 
   }
 }
