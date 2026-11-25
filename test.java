@@ -152,7 +152,7 @@ public static float sum1(float a, float b){
       System.out.println(sum(12,10));
       System.out.println(sum(12,9,3));
 
-      System.out.println(sum1(12, 9));
+      System.out.println(sum1(13, 9));
       System.out.println(sum1(12.6f, 9.3f));
 
 
