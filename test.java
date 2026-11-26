@@ -149,7 +149,7 @@ public static float sum1(float a, float b){
       //System.out.println(prod);
       //System.out.println((bincoeff(5, 2)));
       
-      System.out.println(sum(12,10));
+      System.out.println(sum(13,10));
       System.out.println(sum(12,9,3));
 
       System.out.println(sum1(13, 9));
